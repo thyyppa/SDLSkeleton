@@ -10,7 +10,7 @@ add_definitions( -DHEIGHT=600 )
 add_definitions( -DPROJECT_NAME="${PROJECT_NAME}" )
 add_definitions( -DLANG=en )
 
-set( LIB_FILES lib/app/App.h lib/app/App.cpp lib/app/color.h lib/app/coord.h lib/init/init_sdl.h lib/lang/lang.h lib/lang/en.h )
+set( LIB_FILES lib/app/App.h lib/app/App.cpp lib/app/color.h lib/app/coord.h lib/init/init_sdl.h )
 set( SOURCE_FILES main.cpp ${LIB_FILES} app/DemoApp.cpp app/DemoApp.h )
 add_executable( ${PROJECT_NAME} ${SOURCE_FILES} )
 
